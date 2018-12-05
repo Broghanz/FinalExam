@@ -18,48 +18,130 @@
   <body>
 
     <header>
-      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-        <a class="navbar-brand" href="#">BrandLogo</a>
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark" style = "color:white;">
+        <img src="logo.png" style="height:65px;"class="navbar-brand" href="https://greenfundsolutions.com/">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
           <ul class="navbar-nav mr-auto">
-            <li class="nav-item">
+            <li class="nav-item active">
               <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="contact.html">Contact</a>
+              <a class="nav-link" href="contact.html">Contact</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Some Other Page</a>
+              <a class="nav-link" href="#">Somewhere else</a>
             </li>
           </ul>
           <li class="form-inline mt-2 mt-md-0">
-            <p>(417)123-4567</p>
+            <p style="font-size:25px; text-shadow: 0 .1rem .5rem rgba(0, 0, 0, .5);"> (417)123-4567</p>
           <ul id="socmedlist">
           <li style="display:inline;"><img src="twitter.png" style="height:25px;"</li>
           <li style="display:inline;"><img src="facebook.png" style="height:25px;"</li>
           <li style="display:inline;"><img src="insta.png" style="height:25px;"</li>
         </ul>
-          </li>
         </div>
       </nav>
     </header>
-    <main role="main">
-      <div class="container marketing">
+    <!-- Default form contact -->
+<form class="text-center border border-light p-5">
 
+    <p class="h4 mb-4">Contact us</p>
 
-      </div><!-- /.container -->
+    <!-- Name -->
+    <input type="text" id="defaultContactFormName" class="form-control mb-4" placeholder="Name">
 
+    <!-- Email -->
+    <input type="email" id="defaultContactFormEmail" class="form-control mb-4" placeholder="E-mail">
+
+    <!-- Subject -->
+    <label>Subject</label>
+    <select class="browser-default custom-select mb-4">
+        <option value="1"selected >Choose option</option>
+        <option value="2">Groceries</option>
+        <option value="3">Spirits</option>
+        <option value="4">Premium Products</option>
+    </select>
+
+    <!-- Message -->
+    <div class="form-group">
+        <textarea class="form-control rounded-0" id="exampleFormControlTextarea2" rows="3" placeholder="Message"></textarea>
+    </div>
+
+    <!-- Copy -->
+    <div class="custom-control custom-checkbox mb-4">
+        <input type="checkbox" class="custom-control-input" id="defaultContactFormCopy">
+        <label class="custom-control-label" for="defaultContactFormCopy">Send me a copy of this message</label>
+    </div>
+
+    <!-- Send button -->
+    <button class="btn btn-info btn-block" type="submit">Send</button>
+
+</form>
+<!-- Default form contact -->
 
       <!-- FOOTER -->
-      <footer class="container">
-        <p class="float-right"><a href="#">Back to top</a></p>
-        <p>&copy; Website Created By Broghan Fields and Peter Welter &middot; <a href="mailto:broghan.fields@gmail.com?subject=Business Proposal">Email</a> &middot; <a href="#">Email</a></p>
-      </footer>
-    </main>
+      <!-- Footer -->
+  <footer class="page-footer font-small blue pt-4">
 
+      <!-- Footer Links -->
+      <div class="container-fluid text-center text-md-left">
+
+        <!-- Grid row -->
+        <div class="row">
+
+          <!-- Grid column -->
+          <div class="col-md-6 mt-md-0 mt-3">
+
+            <!-- Content -->
+            <img src="logo.png" style="height:100px;"class="navbar-brand" href="https://greenfundsolutions.com/">
+            <p style="">Random information here.</p>
+
+          </div>
+          <!-- Grid column -->
+
+          <hr class="clearfix w-100 d-md-none pb-3">
+
+          <!-- Grid column -->
+          <div class="col-md-3 mb-md-0 mb-3">
+
+              <!-- Links -->
+              <h5 class="text-uppercase">Contact Information</h5>
+
+              <ul class="list-unstyled">
+                <li>
+                  <a href="#!">Email</a>
+                </li>
+                <li>
+                  <a href="#!">Phone Number</a>
+                </li>
+                <li>
+                  <a href="#!"></a>
+                </li>
+                <li>
+                  <a href="#!"></a>
+                </li>
+              </ul>
+
+            </div>
+            <!-- Grid column -->
+
+
+        </div>
+        <!-- Grid row -->
+
+      </div>
+      <!-- Footer Links -->
+
+      <!-- Copyright -->
+      <div class="footer-copyright text-center py-3">
+        <p>&copy;Website Created By Broghan Fields and Peter Welter &middot; <a href="mailto:broghan.fields@gmail.com?subject=Business Proposal">Email</a> &middot; <a href="#">Email</a></p>
+      </div>
+      <!-- Copyright -->
+
+    </footer>
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
